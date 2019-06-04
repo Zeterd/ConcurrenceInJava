@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/edrdo/tmp/cooperari-0.3/lib/cooperari-0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/edrdo/tmp/cooperari-0.3/lib/aspectjweaver-1.8.5.jar"/>
+	<classpathentry kind="lib" path="/Users/edrdo/tmp/cooperari-0.3/lib/aspectjtools-1.8.5.jar"/>
+	<classpathentry kind="lib" path="/Users/edrdo/tmp/cooperari-0.3/lib/aspectjrt-1.8.5.jar"/>
+	<classpathentry kind="lib" path="/Users/edrdo/tmp/cooperari-0.3/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/Users/edrdo/tmp/cooperari-0.3/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

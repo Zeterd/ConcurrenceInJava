@@ -1,0 +1,90 @@
+# THREADS
+TID	NAME	CLASS
+0	test2	org.cooperari.junit.CJUnitRunner$MethodRunner
+1	<1>	pc.stack.StackTest$$Lambda$5/467520020
+2	<2>	pc.stack.StackTest$$Lambda$6/534924727
+3	<3>	pc.stack.StackTest$$Lambda$7/1524678703
+4	<4>	pc.stack.StackTest$$Lambda$8/512293290
+# EXECUTION TRACE
+#	TID	STEP	EVENT	SOURCE FILE	LINE	YIELD POINT	STAGE
+0	0	0	-	<system>	0	<started>	0
+1	0	1	-	AArrayStackV2.java	30	field-set(pc.stack.AArrayStackV2.array)	0
+2	0	2	-	AArrayStackV2.java	31	field-set(pc.stack.AArrayStackV2.top)	0
+3	0	3	-	AArrayStackV2.java	32	field-set(pc.stack.AArrayStackV2.backoff)	0
+4	0	4	-	StackTest.java	91	org.cooperari.CSystem.forkAndJoin(Runnable[])	0
+5	0	5	-	StackTest.java	91	org.cooperari.CSystem.forkAndJoin(Runnable[])	1
+6	1	0	-	<system>	0	<started>	0
+7	2	0	-	<system>	0	<started>	0
+8	2	1	-	AArrayStackV2.java	64	field-get(pc.stack.AArrayStackV2.top)	0
+9	1	1	-	AArrayStackV2.java	46	field-get(pc.stack.AArrayStackV2.top)	0
+10	1	2	-	AArrayStackV2.java	46	java.util.concurrent.atomic.AtomicInteger.get()	0
+11	1	3	-	AArrayStackV2.java	47	field-get(pc.stack.AArrayStackV2.top)	0
+12	2	2	-	AArrayStackV2.java	64	java.util.concurrent.atomic.AtomicInteger.get()	0
+13	1	4	-	AArrayStackV2.java	47	java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int)	0
+14	1	5	-	AArrayStackV2.java	48	field-get(pc.stack.AArrayStackV2.array)	0
+15	2	3	-	AArrayStackV2.java	69	field-get(pc.stack.AArrayStackV2.top)	0
+16	2	4	-	AArrayStackV2.java	69	java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int)	0
+17	2	5	-	AArrayStackV2.java	70	field-get(pc.stack.AArrayStackV2.array)	0
+18	2	6	-	AArrayStackV2.java	71	field-get(pc.stack.AArrayStackV2.array)	0
+19	2	7	-	AArrayStackV2.java	72	field-get(pc.stack.AArrayStackV2.backoff)	0
+20	2	8	-	StackTest.java	93	field-set(pc.stack.StackTest.R.v)	0
+21	2	9	-	<system>	0	<terminated>	0
+22	1	6	-	AArrayStackV2.java	49	field-get(pc.stack.AArrayStackV2.backoff)	0
+23	1	7	-	AArrayStackV2.java	46	field-get(pc.stack.AArrayStackV2.top)	0
+24	1	8	-	AArrayStackV2.java	46	java.util.concurrent.atomic.AtomicInteger.get()	0
+25	1	9	-	AArrayStackV2.java	47	field-get(pc.stack.AArrayStackV2.top)	0
+26	1	10	-	AArrayStackV2.java	47	java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int)	0
+27	1	11	-	AArrayStackV2.java	48	field-get(pc.stack.AArrayStackV2.array)	0
+28	1	12	-	AArrayStackV2.java	49	field-get(pc.stack.AArrayStackV2.backoff)	0
+29	1	13	-	<system>	0	<terminated>	0
+30	0	6	-	StackTest.java	95	org.cooperari.CSystem.forkAndJoin(Runnable[])	0
+31	0	7	-	StackTest.java	95	org.cooperari.CSystem.forkAndJoin(Runnable[])	1
+32	3	0	-	<system>	0	<started>	0
+33	4	0	-	<system>	0	<started>	0
+34	3	1	-	AArrayStackV2.java	46	field-get(pc.stack.AArrayStackV2.top)	0
+35	4	1	-	AArrayStackV2.java	64	field-get(pc.stack.AArrayStackV2.top)	0
+36	3	2	-	AArrayStackV2.java	46	java.util.concurrent.atomic.AtomicInteger.get()	0
+37	4	2	-	AArrayStackV2.java	64	java.util.concurrent.atomic.AtomicInteger.get()	0
+38	4	3	-	AArrayStackV2.java	69	field-get(pc.stack.AArrayStackV2.top)	0
+39	4	4	-	AArrayStackV2.java	69	java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int)	0
+40	4	5	-	AArrayStackV2.java	70	field-get(pc.stack.AArrayStackV2.array)	0
+41	3	3	-	AArrayStackV2.java	47	field-get(pc.stack.AArrayStackV2.top)	0
+42	3	4	-	AArrayStackV2.java	47	java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int)	0
+43	3	5	-	AArrayStackV2.java	48	field-get(pc.stack.AArrayStackV2.array)	0
+44	3	6	-	AArrayStackV2.java	49	field-get(pc.stack.AArrayStackV2.backoff)	0
+45	4	6	-	AArrayStackV2.java	71	field-get(pc.stack.AArrayStackV2.array)	0
+46	3	7	-	<system>	0	<terminated>	0
+47	4	7	-	AArrayStackV2.java	72	field-get(pc.stack.AArrayStackV2.backoff)	0
+48	4	8	-	StackTest.java	97	field-set(pc.stack.StackTest.R.v)	0
+49	4	9	-	<system>	0	<terminated>	0
+50	0	8	-	AArrayStackV2.java	64	field-get(pc.stack.AArrayStackV2.top)	0
+51	0	9	-	AArrayStackV2.java	64	java.util.concurrent.atomic.AtomicInteger.get()	0
+52	0	10	-	AArrayStackV2.java	69	field-get(pc.stack.AArrayStackV2.top)	0
+53	0	11	-	AArrayStackV2.java	69	java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int)	0
+54	0	12	-	AArrayStackV2.java	70	field-get(pc.stack.AArrayStackV2.array)	0
+55	0	13	-	AArrayStackV2.java	71	field-get(pc.stack.AArrayStackV2.array)	0
+56	0	14	-	AArrayStackV2.java	72	field-get(pc.stack.AArrayStackV2.backoff)	0
+57	0	15	-	StackTest.java	99	field-set(pc.stack.StackTest.R.v)	0
+58	0	16	-	AArrayStackV2.java	64	field-get(pc.stack.AArrayStackV2.top)	0
+59	0	17	-	AArrayStackV2.java	64	java.util.concurrent.atomic.AtomicInteger.get()	0
+60	0	18	-	StackTest.java	100	field-set(pc.stack.StackTest.R.v)	0
+61	0	19	-	StackTest.java	176	field-get(pc.stack.StackTest.R.v)	0
+62	0	20	-	StackTest.java	176	field-get(pc.stack.StackTest.R.v)	0
+63	0	21	-	StackTest.java	176	field-get(pc.stack.StackTest.R.v)	0
+64	0	22	-	StackTest.java	176	field-get(pc.stack.StackTest.R.v)	0
+65	0	23	-	StackTest.java	186	field-get(System.out)	0
+66	0	24	-	<system>	0	<terminated>	0
+# STACK TRACE FOR FAILURE
+java.lang.AssertionError: Incorrect values: [null, 3, null, null]
+	at org.junit.Assert.fail(Assert.java:88)
+	at pc.stack.StackTest.assertOneOf(StackTest.java:187)
+	at pc.stack.StackTest.test2(StackTest.java:102)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.cooperari.junit.CJUnitRunner$MethodRunner.run(CJUnitRunner.java:226)
+	at org.cooperari.core.CThread.run(CThread.java:188)
