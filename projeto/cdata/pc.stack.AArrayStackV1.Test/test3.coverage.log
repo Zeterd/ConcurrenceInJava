@@ -1,12 +1,12 @@
 # YIELD POINT COVERAGE
 TOTAL	COVERED	%
-36	18	50.0
+41	20	48.78048780487805
 # YIELD POINTS
 COVERED	SOURCE FILE	LINE	SIGNATURE
 Y	AArrayStackV1.java	21	field-set(pc.stack.AArrayStackV1.array)
 Y	AArrayStackV1.java	22	field-set(pc.stack.AArrayStackV1.top)
-N	AArrayStackV1.java	27	field-get(pc.stack.AArrayStackV1.top)
-N	AArrayStackV1.java	27	java.util.concurrent.atomic.AtomicInteger.get()
+Y	AArrayStackV1.java	27	field-get(pc.stack.AArrayStackV1.top)
+Y	AArrayStackV1.java	27	java.util.concurrent.atomic.AtomicInteger.get()
 Y	AArrayStackV1.java	35	field-get(pc.stack.AArrayStackV1.top)
 Y	AArrayStackV1.java	35	java.util.concurrent.atomic.AtomicInteger.getAndIncrement()
 Y	AArrayStackV1.java	36	field-get(pc.stack.AArrayStackV1.array)
@@ -37,5 +37,10 @@ Y	StackTest.java	128	field-set(pc.stack.StackTest.R.v)
 Y	StackTest.java	130	org.cooperari.CSystem.forkAndJoin(Runnable[])
 Y	StackTest.java	131	field-set(pc.stack.StackTest.R.v)
 Y	StackTest.java	132	field-set(pc.stack.StackTest.R.v)
-Y	StackTest.java	176	field-get(pc.stack.StackTest.R.v)
-Y	StackTest.java	186	field-get(System.out)
+N	StackTest.java	174	org.cooperari.CSystem.forkAndJoin(Runnable[])
+N	StackTest.java	175	field-set(pc.stack.StackTest.R.v)
+N	StackTest.java	178	org.cooperari.CSystem.forkAndJoin(Runnable[])
+N	StackTest.java	179	field-set(pc.stack.StackTest.R.v)
+N	StackTest.java	180	field-set(pc.stack.StackTest.R.v)
+Y	StackTest.java	245	field-get(pc.stack.StackTest.R.v)
+Y	StackTest.java	255	field-get(System.out)

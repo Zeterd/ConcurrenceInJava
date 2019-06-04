@@ -1,550 +1,562 @@
-2019-06-04 15:43:32 | debug weaving 'pc.stack.AllTests'
-2019-06-04 15:43:32 | debug not weaving 'org.cooperari.CSystem'
-2019-06-04 15:43:32 | debug not weaving 'org.cooperari.errors.CNonCooperativeModeError'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.JUnitCore'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.Runner'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.Describable'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.internal.runners.JUnit38ClassRunner'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.manipulation.Filterable'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.manipulation.Sortable'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.internal.JUnitSystem'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.internal.TextListener'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.notification.RunNotifier'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.notification.StoppedByUserException'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.notification.SynchronizedRunListener'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.notification.RunListener$ThreadSafe'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.Computer'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runners.model.RunnerBuilder'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.Computer$1'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runners.Suite'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runners.ParentRunner'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runner.Request'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.runners.model.InitializationError'
-2019-06-04 15:43:32 | debug not weaving 'org.junit.internal.builders.AllDefaultPossibilitiesBuilder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runner.Request$1'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.requests.SortingRequest'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.requests.FilterRequest'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.ErrorReportingRunner'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.requests.ClassRequest'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.builders.SuiteMethodBuilder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.builders.NullBuilder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runner.manipulation.NoTestsRemainException'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.AssumptionViolatedException'
-2019-06-04 15:43:33 | debug not weaving 'org.hamcrest.SelfDescribing'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.Statement'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.RunnerScheduler'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.ParentRunner$2'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.rules.RunRules'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.statements.RunAfters'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.statements.RunBefores'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.TestClassValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.AnnotationsValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.AnnotationsValidator$AnnotatableValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.AnnotationsValidator$ClassValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.AnnotationValidatorFactory'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.AnnotationsValidator$MethodValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.AnnotationsValidator$FieldValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.PublicClassValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.builders.IgnoredBuilder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.builders.IgnoredClassRunner'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.builders.AnnotatedBuilder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.SuiteMethod'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.builders.JUnit3Builder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.builders.JUnit4Builder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.BlockJUnit4ClassRunner'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.Ignore'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runner.RunWith'
-2019-06-04 15:43:33 | debug not weaving 'com.sun.proxy.$Proxy2'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.Suite$SuiteClasses'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.LLinkedStack$Test'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.StackTest'
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:44) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:44) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:47) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:47) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:48) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:48) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:61) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:65) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:69) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:69) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:70) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:70) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:91) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:95) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:99) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:99) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:100) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:100) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:126) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:130) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:176) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:176) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.io.PrintStream java.lang.System.out)' in Type 'pc.stack.StackTest' (StackTest.java:186) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.io.PrintStream java.lang.System.out)' in Type 'pc.stack.StackTest' (StackTest.java:186) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:132) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:132) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:132) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:132) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:131) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:131) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:128) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:128) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:97) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:97) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:93) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:93) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:67) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:67) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:63) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:63) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | debug generating class 'pc.stack.StackTest$AjcClosure1'
-2019-06-04 15:43:33 | debug generating class 'pc.stack.StackTest$AjcClosure3'
-2019-06-04 15:43:33 | debug generating class 'pc.stack.StackTest$AjcClosure5'
-2019-06-04 15:43:33 | debug generating class 'pc.stack.StackTest$AjcClosure7'
-2019-06-04 15:43:33 | debug generating class 'pc.stack.StackTest$AjcClosure9'
-2019-06-04 15:43:33 | debug generating class 'pc.stack.StackTest$AjcClosure11'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.LArrayStack$Test'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.ALinkedStack$Test'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.AArrayStackV1$Test'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.AArrayStackV2$Test'
-2019-06-04 15:43:33 | debug not weaving 'com.sun.proxy.$Proxy3'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.junit.CJUnitRunner'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.config.CMaxTrials'
-2019-06-04 15:43:33 | debug not weaving 'com.sun.proxy.$Proxy4'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.config.CRaceDetection'
-2019-06-04 15:43:33 | debug not weaving 'com.sun.proxy.$Proxy5'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.config.CScheduling'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.CSchedulerFactory'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.CProgramStateFactory'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.CSchedulerFactory$1'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.CSchedulerFactory$2'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.CScheduler'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.Oblitus'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.Memini'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.CProgramStateFactory$1'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.CProgramStateFactory$2'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.core.scheduling.CProgramState'
-2019-06-04 15:43:33 | debug not weaving 'com.sun.proxy.$Proxy6'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.FixMethodOrder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.MethodSorters'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.MethodSorter'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.MethodSorter$1'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.MethodSorter$2'
-2019-06-04 15:43:33 | debug not weaving 'com.sun.proxy.$Proxy7'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.statements.ExpectException'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.statements.InvokeMethod'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.statements.Fail'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.statements.FailOnTimeout'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.CTest'
-2019-06-04 15:43:33 | debug not weaving 'org.cooperari.junit.CJUnitRunner$1'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.ParentRunner$1'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.TestClass'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.Annotatable'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.FrameworkMember'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.FrameworkMethod'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.FrameworkField'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.TestClass$FieldComparator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.runners.model.TestClass$MethodComparator'
-2019-06-04 15:43:33 | debug cannot weave 'org.aspectj.lang.Signature'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.Stack'
-2019-06-04 15:43:33 | debug cannot weave 'org.aspectj.lang.JoinPoint'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.StackTest$R'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.Before'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.BeforeClass'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.Test'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.Test$None'
-2019-06-04 15:43:33 | debug not weaving 'com.sun.proxy.$Proxy9'
-2019-06-04 15:43:33 | debug cannot weave 'org.aspectj.lang.JoinPoint$StaticPart'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.AfterClass'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$RuleValidator'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$Builder'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.ClassRule'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$DeclaringClassMustBePublic'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBeStatic'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBePublic'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$FieldMustBeATestRule'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.Rule'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBeNonStaticOrAlsoClassRule'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$FieldMustBeARule'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MethodMustBeATestRule'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MethodMustBeARule'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.validator.ValidateWith'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.LLinkedStack'
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:18) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:18) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:19) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:19) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:24) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:24) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:32) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:33) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:33) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:33) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:33) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:34) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:34) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:34) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:34) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:35) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:40) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:41) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:41) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:42) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:44) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:44) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:44) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:44) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:46) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:46) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:46) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:46) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:47) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:48) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | debug not weaving 'org.junit.Assert'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.ComparisonFailure'
-2019-06-04 15:43:33 | debug not weaving 'org.junit.After'
-2019-06-04 15:43:33 | debug weaving 'pc.stack.LArrayStack'
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:22) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:22) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:23) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:23) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:28) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:29) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:29) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:29) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:30) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:38) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:39) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:39) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:39) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:39) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:43) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:43) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:43) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:43) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:44) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:50) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:51) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:51) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:52) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:52) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:52) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:52) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:53) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:53) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:53) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:53) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:55) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | debug weaving 'pc.stack.ALinkedStack'
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:34) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:34) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:35) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:35) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:36) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:36) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:37) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:37) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(java.lang.Object java.util.concurrent.atomic.AtomicReference.get())' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:51) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:51) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:55) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:55) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(java.lang.Object java.util.concurrent.atomic.AtomicReference.get())' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:55) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:56) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:56) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:56) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:56) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:57) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:57) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:58) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:58) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:58) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:58) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:59) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:59) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(boolean java.util.concurrent.atomic.AtomicReference.compareAndSet(java.lang.Object, java.lang.Object))' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:59) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:60) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:60) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:61) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:61) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:65) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:65) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:66) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:66) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:77) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:77) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(java.lang.Object java.util.concurrent.atomic.AtomicReference.get())' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:77) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:78) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:78) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:83) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:83) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:83) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:83) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:84) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:84) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:84) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:84) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:85) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:85) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'method-call(boolean java.util.concurrent.atomic.AtomicReference.compareAndSet(java.lang.Object, java.lang.Object))' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:85) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:86) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:86) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:87) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:87) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:91) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:91) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:92) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:33 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:92) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | debug weaving 'pc.stack.AArrayStackV1'
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:21) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:21) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:22) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:22) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:27) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:27) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:27) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:35) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:35) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.getAndIncrement())' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:35) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:36) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:36) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:41) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:41) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:41) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:44) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:44) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.decrementAndGet())' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:44) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:45) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:45) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:46) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:46) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | debug weaving 'pc.stack.AArrayStackV2'
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:30) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:30) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:31) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:31) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:32) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:32) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:37) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:37) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:37) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:46) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:46) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:46) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:47) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:47) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(boolean java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int))' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:47) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:48) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:48) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:49) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:49) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:50) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:50) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:54) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:54) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:55) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:55) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:64) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:64) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:64) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:69) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:69) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'method-call(boolean java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int))' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:69) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:70) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:70) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:71) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:71) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:72) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:72) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:73) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:73) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:77) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:77) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:78) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:78) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runner.Result'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runner.Result$Listener'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runner.Result$SerializedForm'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy12'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runner.Description'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runner.notification.RunNotifier$1'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runner.notification.RunNotifier$SafeNotifier'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.internal.runners.model.EachTestNotifier'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.rules.TestRule'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runners.ParentRunner$3'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.junit.CPreemptiveOnly'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runner.notification.RunNotifier$3'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.junit.CJUnitRunner$MethodRunner'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.errors.CCheckedExceptionError'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.Factory'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.SourceLocation'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.MethodSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.MethodSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.CodeSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.MemberSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.CodeSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.MemberSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.SignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.ConstructorSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.ConstructorSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.AdviceSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.AdviceSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.LockSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.LockSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.InitializerSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.InitializerSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.CatchClauseSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.CatchClauseSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.UnlockSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.UnlockSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.FieldSignatureImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.reflect.FieldSignature'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.JoinPoint$EnclosingStaticPart'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.SignatureImpl$Cache'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.JoinPointImpl$StaticPartImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.SourceLocationImpl'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CSession'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.errors.CHotspotError'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.CTestResult'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CRuntime'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CConfiguration'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CBaseConfiguration'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.CAllFeatures'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.CFeature'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.atomic.CAtomicObjectsFeature'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.data.CDataAccessFeature'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.CMonitorFeature'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.hotspots.CHotspotFeature'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.thread.CThreadFeature'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.threadrunner.CThreadRunnerFeature'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.unsafe.CSunMiscUnsafeFeature'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.data.RaceDetector'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.errors.CRaceError'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.MonitorPool'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CDetectResourceDeadlocks'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CInstrument'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy13'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy14'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CTimeLimit'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy15'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CGenerateCoverageReports'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy16'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CAlways'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy17'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CNever'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy18'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CSometimes'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy19'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.config.CTraceOptions'
-2019-06-04 15:43:34 | debug not weaving 'com.sun.proxy.$Proxy20'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.DeadlockDetector'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.CResourceDeadlockError'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.errors.CDeadlockError'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.util.ResourceGraph'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.hotspots.HotspotHandler'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CTrace'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CEngine'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.errors.CWaitDeadlockError'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CUncaughtExceptionHandler'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.errors.CMultipleExceptionsError'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThreadMappings'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThread'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.scheduling.CThreadHandle'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.scheduling.CProgramState$CElement'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.COperation'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThread$Die'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThread$1'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThread$2'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThread$3'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThread$4'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThread$5'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.COperation$1'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.scheduling.CThreadLocation'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CTrace$ThreadInfo'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CTrace$TraceItem'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThreadState'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CEngine$1'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.scheduling.CRawProgramState'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runners.model.FrameworkMethod$1'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.internal.runners.model.ReflectiveCallable'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CThread$6'
-2019-06-04 15:43:34 | debug weaving 'pc.stack.Node'
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.Node' (Node.java:20) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.Node' (Node.java:20) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.Node' (Node.java:21) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.Node' (Node.java:21) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.JoinPointImpl'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.ProceedingJoinPoint'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.data.YieldPoints'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.lang.NoAspectBoundException'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.StringMaker'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.reflect.SignatureImpl$CacheImpl'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.data.Write'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.data.DataOperation'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.data.RaceDetector$Data'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.data.RaceDetector$Status'
-2019-06-04 15:43:34 | debug cannot weave 'org.aspectj.runtime.internal.Conversions'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.YieldPoints'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.Enter'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.MonitorOperation'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.Monitor'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.data.Read'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.monitor.Exit'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.util.CReport'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.core.CSession$CTestResultImpl'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.junit.CTestResultPool'
-2019-06-04 15:43:34 | debug not weaving 'org.junit.runner.notification.RunNotifier$7'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.threadrunner.YieldPoints'
-2019-06-04 15:43:34 | debug not weaving 'org.cooperari.feature.threadrunner.ThreadRunnerOperation'
-2019-06-04 15:43:42 | debug not weaving 'org.cooperari.core.CTrace$EventType'
-2019-06-04 15:43:43 | debug not weaving 'org.junit.runner.notification.Failure'
-2019-06-04 15:43:43 | debug not weaving 'org.junit.runner.notification.RunNotifier$4'
-2019-06-04 15:43:52 | debug weaving 'pc.stack.ALinkedStack$State'
-2019-06-04 15:43:52 | debug weaving 'pc.stack.Backoff'
-2019-06-04 15:43:52 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:27) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:27) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:35) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:35) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'method-call(void java.lang.Thread.sleep(long, int))' in Type 'pc.stack.Backoff' (Backoff.java:36) advised by around advice from 'org.cooperari.feature.thread.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:37) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:37) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:37) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:37) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:48) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:48) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:48) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:48) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
-2019-06-04 15:43:52 | debug generating class 'pc.stack.Backoff$AjcClosure1'
-2019-06-04 15:43:52 | debug not weaving 'org.cooperari.core.CustomYieldPointOperation'
-2019-06-04 15:44:12 | debug not weaving 'org.junit.runner.notification.RunNotifier$2'
-2019-06-04 15:44:12 | debug not weaving 'org.cooperari.core.util.IO'
+2019-06-04 18:30:59 | debug weaving 'pc.stack.AllTests'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.CSystem'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.errors.CNonCooperativeModeError'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.JUnitCore'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Runner'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Describable'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.JUnit38ClassRunner'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.manipulation.Filterable'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.manipulation.Sortable'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.JUnitSystem'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.TextListener'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.notification.RunNotifier'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.notification.StoppedByUserException'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.notification.SynchronizedRunListener'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.notification.RunListener$ThreadSafe'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Computer'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.RunnerBuilder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Computer$1'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.Suite'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.ParentRunner'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Request'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.InitializationError'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.builders.AllDefaultPossibilitiesBuilder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.requests.ClassRequest'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Request$1'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.requests.FilterRequest'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.ErrorReportingRunner'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.requests.SortingRequest'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.builders.SuiteMethodBuilder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.builders.NullBuilder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.manipulation.NoTestsRemainException'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.AssumptionViolatedException'
+2019-06-04 18:31:00 | debug not weaving 'org.hamcrest.SelfDescribing'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.Statement'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.RunnerScheduler'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.ParentRunner$2'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.rules.RunRules'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.statements.RunAfters'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.statements.RunBefores'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.TestClassValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.AnnotationsValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.AnnotationsValidator$AnnotatableValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.AnnotationsValidator$ClassValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.AnnotationValidatorFactory'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.AnnotationsValidator$MethodValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.AnnotationsValidator$FieldValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.PublicClassValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.builders.IgnoredBuilder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.builders.IgnoredClassRunner'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.builders.AnnotatedBuilder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.SuiteMethod'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.builders.JUnit3Builder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.builders.JUnit4Builder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.BlockJUnit4ClassRunner'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.Ignore'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.RunWith'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy2'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.Suite$SuiteClasses'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.LLinkedStack$Test'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.StackTest'
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:44) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:44) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:47) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:47) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:48) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:48) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:61) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:65) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:69) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:69) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:70) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:70) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:91) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:95) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:99) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:99) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:100) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:100) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:126) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:130) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:174) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(void org.cooperari.CSystem.forkAndJoin(java.lang.Runnable[]))' in Type 'pc.stack.StackTest' (StackTest.java:178) advised by around advice from 'org.cooperari.feature.threadrunner.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:245) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:245) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.io.PrintStream java.lang.System.out)' in Type 'pc.stack.StackTest' (StackTest.java:255) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.io.PrintStream java.lang.System.out)' in Type 'pc.stack.StackTest' (StackTest.java:255) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:180) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:180) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:179) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:179) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:179) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:179) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:175) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:175) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:132) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:132) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:132) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:132) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:131) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:131) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:128) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:128) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:97) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:97) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:93) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:93) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:67) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:67) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:63) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Integer pc.stack.StackTest$R.v)' in Type 'pc.stack.StackTest' (StackTest.java:63) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | debug generating class 'pc.stack.StackTest$AjcClosure1'
+2019-06-04 18:31:00 | debug generating class 'pc.stack.StackTest$AjcClosure3'
+2019-06-04 18:31:00 | debug generating class 'pc.stack.StackTest$AjcClosure5'
+2019-06-04 18:31:00 | debug generating class 'pc.stack.StackTest$AjcClosure7'
+2019-06-04 18:31:00 | debug generating class 'pc.stack.StackTest$AjcClosure9'
+2019-06-04 18:31:00 | debug generating class 'pc.stack.StackTest$AjcClosure11'
+2019-06-04 18:31:00 | debug generating class 'pc.stack.StackTest$AjcClosure13'
+2019-06-04 18:31:00 | debug generating class 'pc.stack.StackTest$AjcClosure15'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.LArrayStack$Test'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.ALinkedStack$Test'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.AArrayStackV1$Test'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.AArrayStackV2$Test'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy3'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.junit.CJUnitRunner'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CMaxTrials'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy4'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CRaceDetection'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy5'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CScheduling'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CProgramStateFactory'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CSchedulerFactory'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CProgramStateFactory$1'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CProgramStateFactory$2'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CProgramState'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CSchedulerFactory$1'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CSchedulerFactory$2'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CScheduler'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.Oblitus'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.Memini'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy6'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.FixMethodOrder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.MethodSorters'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.MethodSorter'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.MethodSorter$1'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.MethodSorter$2'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy7'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.statements.FailOnTimeout'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.statements.ExpectException'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.statements.InvokeMethod'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.statements.Fail'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.CTest'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.junit.CJUnitRunner$1'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.ParentRunner$1'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.TestClass'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.Annotatable'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.FrameworkMember'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.FrameworkMethod'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.FrameworkField'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.TestClass$FieldComparator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.TestClass$MethodComparator'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.Signature'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.Stack'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.StackTest$R'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.JoinPoint'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.Before'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.BeforeClass'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.Test'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.Test$None'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy9'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.JoinPoint$StaticPart'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.AfterClass'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$RuleValidator'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$Builder'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.ClassRule'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$DeclaringClassMustBePublic'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBeStatic'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBePublic'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$FieldMustBeATestRule'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.Rule'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MemberMustBeNonStaticOrAlsoClassRule'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$FieldMustBeARule'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MethodMustBeATestRule'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.rules.RuleMemberValidator$MethodMustBeARule'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.validator.ValidateWith'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.LLinkedStack'
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:18) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:18) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:19) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:19) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:24) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:24) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:32) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:33) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:33) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:33) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:33) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:34) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:34) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:34) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:34) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:35) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:40) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:41) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:41) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:42) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:44) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:44) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:44) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:44) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.LLinkedStack.top)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:45) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:46) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:46) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:46) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LLinkedStack.size)' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:46) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:47) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LLinkedStack' (LLinkedStack.java:48) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | debug not weaving 'org.junit.Assert'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.ComparisonFailure'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.After'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.LArrayStack'
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:22) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:22) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:23) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:23) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:28) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:29) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:29) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:29) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:30) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:38) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:39) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:39) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:39) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:39) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:40) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:43) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:43) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:43) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:43) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:44) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'lock(void java.lang.Object.<lock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:50) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:51) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:51) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:52) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:52) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:52) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:52) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:53) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.LArrayStack.array)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:53) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:53) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.LArrayStack.top)' in Type 'pc.stack.LArrayStack' (LArrayStack.java:53) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'unlock(void java.lang.Object.<unlock>(java.lang.Object))' in Type 'pc.stack.LArrayStack' (LArrayStack.java:55) advised by before advice from 'org.cooperari.feature.monitor.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | debug weaving 'pc.stack.ALinkedStack'
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:34) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:34) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:35) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:35) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:36) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:36) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:37) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:37) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(java.lang.Object java.util.concurrent.atomic.AtomicReference.get())' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:42) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:51) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:51) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:55) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:55) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(java.lang.Object java.util.concurrent.atomic.AtomicReference.get())' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:55) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:56) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:56) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:56) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:56) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:57) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:57) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:58) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:58) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:58) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:58) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:59) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:59) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(boolean java.util.concurrent.atomic.AtomicReference.compareAndSet(java.lang.Object, java.lang.Object))' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:59) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:60) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:60) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:61) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:61) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:65) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:65) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:66) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:66) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:77) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:77) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(java.lang.Object java.util.concurrent.atomic.AtomicReference.get())' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:77) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:78) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:78) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:82) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:83) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:83) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:83) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(int pc.stack.ALinkedStack$State.size)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:83) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:84) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Node pc.stack.ALinkedStack$State.top)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:84) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:84) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:84) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:85) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicReference pc.stack.ALinkedStack.ref)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:85) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(boolean java.util.concurrent.atomic.AtomicReference.compareAndSet(java.lang.Object, java.lang.Object))' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:85) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicReference' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:86) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:86) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:87) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:87) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:91) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:91) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:92) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.ALinkedStack.backoff)' in Type 'pc.stack.ALinkedStack' (ALinkedStack.java:92) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | debug weaving 'pc.stack.AArrayStackV1'
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:21) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:21) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:22) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:22) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:27) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:27) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:27) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:35) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:35) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.getAndIncrement())' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:35) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:36) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:36) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:41) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:41) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:41) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:44) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV1.top)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:44) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.decrementAndGet())' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:44) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:45) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:45) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:46) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV1.array)' in Type 'pc.stack.AArrayStackV1' (AArrayStackV1.java:46) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | debug weaving 'pc.stack.AArrayStackV2'
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:30) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:30) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:31) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:31) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:32) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:32) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:37) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:37) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:37) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:46) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:46) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:46) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:47) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:47) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(boolean java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int))' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:47) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:48) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:48) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:49) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:49) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:50) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:50) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:54) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:54) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:55) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:55) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:64) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:64) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(int java.util.concurrent.atomic.AtomicInteger.get())' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:64) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:69) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.util.concurrent.atomic.AtomicInteger pc.stack.AArrayStackV2.top)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:69) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'method-call(boolean java.util.concurrent.atomic.AtomicInteger.compareAndSet(int, int))' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:69) advised by before advice from 'org.cooperari.inline_aspects.java_util_concurrent_atomic_AtomicInteger' (ACustomYieldPoint.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:70) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:70) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:71) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(java.lang.Object[] pc.stack.AArrayStackV2.array)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:71) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:72) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:72) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:73) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:73) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:77) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:77) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:78) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-get(pc.stack.Backoff pc.stack.AArrayStackV2.backoff)' in Type 'pc.stack.AArrayStackV2' (AArrayStackV2.java:78) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Result'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Result$Listener'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Result$SerializedForm'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy12'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.Description'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.notification.RunNotifier$1'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.notification.RunNotifier$SafeNotifier'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.model.EachTestNotifier'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.rules.TestRule'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.ParentRunner$3'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.junit.CPreemptiveOnly'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.notification.RunNotifier$3'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.junit.CJUnitRunner$MethodRunner'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.errors.CCheckedExceptionError'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.Factory'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.SourceLocation'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.MethodSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.MethodSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.CodeSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.MemberSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.CodeSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.MemberSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.SignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.ConstructorSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.ConstructorSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.InitializerSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.InitializerSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.FieldSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.FieldSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.UnlockSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.UnlockSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.LockSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.LockSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.AdviceSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.AdviceSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.CatchClauseSignatureImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.reflect.CatchClauseSignature'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.JoinPoint$EnclosingStaticPart'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.SignatureImpl$Cache'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.JoinPointImpl$StaticPartImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.SourceLocationImpl'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CSession'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.errors.CHotspotError'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.CTestResult'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CRuntime'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CConfiguration'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CBaseConfiguration'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.CAllFeatures'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.CFeature'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.atomic.CAtomicObjectsFeature'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.data.CDataAccessFeature'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.CMonitorFeature'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.hotspots.CHotspotFeature'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.thread.CThreadFeature'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.threadrunner.CThreadRunnerFeature'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.unsafe.CSunMiscUnsafeFeature'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.data.RaceDetector'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.errors.CRaceError'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.MonitorPool'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CDetectResourceDeadlocks'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CInstrument'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy13'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy14'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CTimeLimit'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy15'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CGenerateCoverageReports'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy16'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CAlways'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy17'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CNever'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy18'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CSometimes'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy19'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.config.CTraceOptions'
+2019-06-04 18:31:00 | debug not weaving 'com.sun.proxy.$Proxy20'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.DeadlockDetector'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.CResourceDeadlockError'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.errors.CDeadlockError'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.util.ResourceGraph'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.hotspots.HotspotHandler'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CTrace'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CEngine'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.errors.CWaitDeadlockError'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CUncaughtExceptionHandler'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.errors.CMultipleExceptionsError'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThreadMappings'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThread'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CThreadHandle'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CProgramState$CElement'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.COperation'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThread$Die'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThread$1'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThread$2'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThread$3'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThread$4'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThread$5'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.COperation$1'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CThreadLocation'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CTrace$ThreadInfo'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CTrace$TraceItem'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThreadState'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CEngine$1'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.scheduling.CRawProgramState'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runners.model.FrameworkMethod$1'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.internal.runners.model.ReflectiveCallable'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CThread$6'
+2019-06-04 18:31:00 | debug weaving 'pc.stack.Node'
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.Node' (Node.java:20) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(java.lang.Object pc.stack.Node.data)' in Type 'pc.stack.Node' (Node.java:20) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.Node' (Node.java:21) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | weaveinfo Join point 'field-set(pc.stack.Node pc.stack.Node.next)' in Type 'pc.stack.Node' (Node.java:21) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.JoinPointImpl'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.ProceedingJoinPoint'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.data.YieldPoints'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.lang.NoAspectBoundException'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.StringMaker'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.reflect.SignatureImpl$CacheImpl'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.data.Write'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.data.DataOperation'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.data.RaceDetector$Data'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.data.RaceDetector$Status'
+2019-06-04 18:31:00 | debug cannot weave 'org.aspectj.runtime.internal.Conversions'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.YieldPoints'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.Enter'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.MonitorOperation'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.Monitor'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.data.Read'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.monitor.Exit'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.util.CReport'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.core.CSession$CTestResultImpl'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.junit.CTestResultPool'
+2019-06-04 18:31:00 | debug not weaving 'org.junit.runner.notification.RunNotifier$7'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.threadrunner.YieldPoints'
+2019-06-04 18:31:00 | debug not weaving 'org.cooperari.feature.threadrunner.ThreadRunnerOperation'
+2019-06-04 18:31:02 | debug not weaving 'org.cooperari.core.CTrace$EventType'
+2019-06-04 18:31:15 | debug weaving 'pc.stack.ALinkedStack$State'
+2019-06-04 18:31:15 | debug weaving 'pc.stack.Backoff'
+2019-06-04 18:31:15 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:27) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:27) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:35) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:35) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'method-call(void java.lang.Thread.sleep(long, int))' in Type 'pc.stack.Backoff' (Backoff.java:36) advised by around advice from 'org.cooperari.feature.thread.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:37) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:37) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:37) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:37) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:48) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-get(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:48) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:48) advised by before advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | weaveinfo Join point 'field-set(int pc.stack.Backoff.limit)' in Type 'pc.stack.Backoff' (Backoff.java:48) advised by after advice from 'org.cooperari.feature.data.YieldPoints' (YieldPoints.java)
+2019-06-04 18:31:15 | debug generating class 'pc.stack.Backoff$AjcClosure1'
+2019-06-04 18:31:15 | debug not weaving 'org.cooperari.core.CustomYieldPointOperation'
+2019-06-04 18:31:29 | debug not weaving 'org.junit.runner.notification.Failure'
+2019-06-04 18:31:29 | debug not weaving 'org.junit.runner.notification.RunNotifier$4'
+2019-06-04 18:31:30 | debug not weaving 'org.junit.runner.notification.RunNotifier$2'
+2019-06-04 18:31:30 | debug not weaving 'org.cooperari.core.util.IO'

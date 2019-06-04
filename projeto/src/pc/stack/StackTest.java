@@ -26,7 +26,7 @@ import org.junit.runners.MethodSorters;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public abstract class StackTest {
 
-  protected abstract Stack<Integer> createStack(); 
+  protected abstract Stack<Integer> createStack();
 
   // Simple class for storing results.
   static class R {
@@ -49,11 +49,11 @@ public abstract class StackTest {
     assertOneOf (
         array(a,    b,   c,   d ),
         array(null, 1,   3,   2 )
-    );     
-    assertEquals(0, s.size());      
+    );
+    assertEquals(0, s.size());
   }
 
-  @Test 
+  @Test
   public void test1() {
     R a = new R(), b = new R(), c = new R(), d = new R();
     Stack<Integer> s = createStack();
@@ -72,18 +72,18 @@ public abstract class StackTest {
     assertOneOf (
         array(a,   b,   c,   d  ),
         // push(1) > pop() > push(2) > pop() > pop()
-        array(1,    2,    null, null),   
+        array(1,    2,    null, null),
         // push(1) > pop() > pop() > push(2) > pop()
-        array(1,    null, 2,   null),    
+        array(1,    null, 2,   null),
         // pop() > push(1) > pop() > push(2) > pop()
-        array(null, 1,    2,   null),    
+        array(null, 1,    2,   null),
         // pop() > push(1) >  push(2) > pop() > pop()
         array(null, 2,    1,   null)
-    );   
-    assertEquals(0, s.size());      
+    );
+    assertEquals(0, s.size());
   }
 
-  @Test 
+  @Test
   public void test2() {
     R a = new R(), b = new R(), c = new R(), d = new R();
     Stack<Integer> s = createStack();
@@ -104,21 +104,21 @@ public abstract class StackTest {
         // push(1)  > push(2) > pop(a) > push(3) > pop(b) > pop(c) > pop(d)
         array(2,    3,     1,   null),
         // push(1)  > push(2) > pop(a) > pop(b) > push(3) > pop(c) > pop(d)
-        array(2,    1,     3,   null),    
+        array(2,    1,     3,   null),
         // push(1) > pop(a) > push(2) > push(3) > pop(b) > pop(c) > pop(d)
         array(1,    3,    2,     null),
         // push(1) > pop(a) > push(2) > pop(b) > push(3) > pop(c) > pop(d)
-        array(1,    2,    3,     null),    
+        array(1,    2,    3,     null),
         // pop(a) > push(1)  > push(2) > pop(b) > push(3) > pop(c) > pop(d)
-        array(null, 2,    3,     1),    
+        array(null, 2,    3,     1),
         // pop(a) > push(1) > push(2) > push(3) > pop(b) > pop(c) > pop(d)
         array(null, 3,    2,     1)
-    ); 
-    assertEquals(0, s.size());      
+    );
+    assertEquals(0, s.size());
   }
-  
-  
-  @Test 
+
+
+  @Test
   public void test3() {
     R a = new R(), b = new R(), c = new R(), d = new R();
     Stack<Integer> s = createStack();
@@ -131,31 +131,100 @@ public abstract class StackTest {
         () -> { s.push(3); d.v = s.pop(); },
         () -> { b.v = s.pop(); c.v = s.pop(); }
         );
-    
+
     assertOneOf (
         array(a,    b,     c,   d ),
+
         // push(1)  > push(2) > pop(a) > push(3) > pop(b) > pop(c) > pop(d)
         array(2,    3,     1,   null),
         // push(1)  > push(2) > pop(a) > pop(b) > push(3) > pop(c) > pop(d)
-        array(2,    1,     3,   null),    
+        array(2,    1,     3,   null),
+        // push(1) > push(2) > pop(a) > push(3) > pop(d) > pop(b) > pop(c)
+        array(2,    1,    null,  3),
+        // push(1) > push(2) > pop(a) > push(3) > pop(b) > pop(d) > pop(c)
+        array(2,    3,    null,  1),
+
         // push(1) > pop(a) > push(2) > push(3) > pop(b) > pop(c) > pop(d)
         array(1,    3,    2,     null),
         // push(1) > pop(a) > push(2) > pop(b) > push(3) > pop(c) > pop(d)
-        array(1,    2,    3,     null),    
+        array(1,    2,    3,     null),
+        // push(2) > push(1) > pop(a) > push(3) > pop(d) > pop(b) > pop(c)
+        array(1,    2,    null,  3),
+        // push(2) > push(1) > pop(a) > push(3) > pop(b) > pop(d) > pop(c)
+        array(1,    3,    null,  2),
+
         // pop(a) > push(1)  > push(2) > pop(b) > push(3) > pop(c) > pop(d)
-        array(null, 2,    3,     1),    
+        array(null, 2,    3,     1),
         // pop(a) > push(1) > push(2) > push(3) > pop(b) > pop(c) > pop(d)
-        array(null, 3,    2,     1)
-        // TODO COMPLETE
-    ); 
-    assertEquals(0, s.size());      
+        array(null, 3,    2,     1),
+        // pop() >  push(1) > push(2) > push(3) > pop(d) > pop(b) > pop(c)
+        array(null, 2,    1,     3),
+        // pop() >  push(1) > push(2) > push(3) > pop(b) > pop(d) > pop(c)
+        array(null, 3,    1,     2)
+
+    );
+    assertEquals(0, s.size());
   }
 
   @Test
   public void test4() {
-    // TODO
+    R a = new R(), b = new R(), c = new R(), d = new R();
+    Stack<Integer> s = createStack();
+
+    CSystem.forkAndJoin(
+        () -> { a.v = s.pop(); },
+        () -> { s.push(1); s.push(2); }
+        );
+    CSystem.forkAndJoin(
+        () -> { c.v = s.pop(); d.v = s.pop(); },
+        () -> { b.v = s.pop();  s.push(3); }
+        );
+
+    assertOneOf (
+        array(a,    b,     c,    d ),
+
+        // pop(a) > push(1) > push(2) > pop(c) > pop(d) > pop(b) > push(3)
+        array(null,   null,   2,    1),
+        // pop(a) > push(1) > push(2) > pop(c) > pop(b) > pop(d) > push(3)
+        array(null,   1,      2,    null),
+        // pop(a) > push(1) > push(2) > pop(c) > pop(b) > push(3) > pop(d)
+        array(null,   1,      2,    3),
+        // pop(a) > push(1) > push(2) > pop(b) > pop(c) > pop(d) > push(3)
+        array(null,   2,      1,    null),
+        // pop(a) > push(1) > push(2) > pop(d) > push(3) > pop(c) > pop(d)
+        array(null,   2,      3,    1),
+        // pop(a) > push(1) > push(2) > pop(d) > pop(c) > push(3) > pop(d)
+        array(null,   2,      1,    3),
+
+        // push(1) > push(2) > pop(a) > pop(c) > pop(d) > pop(b) > push(3)
+        array(2,      null,   1,    null),
+        // push(1) > push(2) > pop(a) > pop(c) > pop(b) > pop(d) > push(3)
+        array(2,      null,   1,    null),
+        // push(1) > push(2) > pop(a) > pop(c) > pop(b) > push(3) > pop(d)
+        array(2,      null,   1,    3),
+        // push(1) > push(2) > pop(a) > pop(b) > pop(c) > pop(d) > push(c)
+        array(2,      1,      null, null),
+        // push(1) > push(2) > pop(a) > pop(b) > push(3) > pop(c) > pop(d)
+        array(2,      1,      3,    null),
+        // push(1) > push(2) > pop(a) > pop(b) > pop(c) > push(3) > pop(d)
+        array(2,      1,      null, 3),
+
+        // push(1) > pop(a) > push(2) > pop(c) > pop(d) > pop(b) > push(3)
+        array(1,      null,   2,    null),
+        // push(1) > pop(a) > push(2) > pop(c) > pop(b) > pop(d) > push(3)
+        array(1,      null,   2,    null),
+        // push(1) > pop(a) > push(2) > pop(c) > pop(b) > push(3) > pop(d)
+        array(1,      null,   2,    3),
+        // push(1) > pop(a) > push(2) > pop(b) > pop(c) > pop(d) > push(c)
+        array(1,      2,      null, null),
+        // push(1) > pop(a) > push(2) > pop(b) > push(3) > pop(c) > pop(d)
+        array(1,      2,      3,    null),
+        // push(1) > pop(a) > push(2) > pop(b) > pop(c) > push(3) > pop(d)
+        array(1,      2,      null, 3)
+
+    );
   }
-  
+
   @SafeVarargs
   static <T> T[] array(T... values) {
     return values;
@@ -167,7 +236,7 @@ public abstract class StackTest {
     }
     for (int i = 0; i < validValues.length; i++) {
       if (validValues[i].length != results.length) {
-        fail(String.format("VV entry %d has invalid length %d, expected %d.", 
+        fail(String.format("VV entry %d has invalid length %d, expected %d.",
             i, validValues[i].length, results.length));
       }
     }
@@ -186,7 +255,7 @@ public abstract class StackTest {
     System.out.printf(msg);
     fail(msg);
   }
-  
+
 
 
 

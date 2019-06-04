@@ -1,10 +1,10 @@
 # THREADS
 TID	NAME	CLASS
 0	test3	org.cooperari.junit.CJUnitRunner$MethodRunner
-1	<1>	pc.stack.StackTest$$Lambda$9/1452715776
-2	<2>	pc.stack.StackTest$$Lambda$10/1386819850
-3	<3>	pc.stack.StackTest$$Lambda$11/397124923
-4	<4>	pc.stack.StackTest$$Lambda$12/645330478
+1	<1>	pc.stack.StackTest$$Lambda$9/2144542525
+2	<2>	pc.stack.StackTest$$Lambda$10/2079097887
+3	<3>	pc.stack.StackTest$$Lambda$11/1055790342
+4	<4>	pc.stack.StackTest$$Lambda$12/253373155
 # EXECUTION TRACE
 #	TID	STEP	EVENT	SOURCE FILE	LINE	YIELD POINT	STAGE
 0	0	0	-	<system>	0	<started>	0

@@ -1,6 +1,6 @@
 # YIELD POINT COVERAGE
 TOTAL	COVERED	%
-46	27	58.69565217391305
+51	27	52.94117647058823
 # YIELD POINTS
 COVERED	SOURCE FILE	LINE	SIGNATURE
 Y	LLinkedStack.java	18	field-set(pc.stack.LLinkedStack.top)
@@ -47,5 +47,10 @@ N	StackTest.java	128	field-set(pc.stack.StackTest.R.v)
 N	StackTest.java	130	org.cooperari.CSystem.forkAndJoin(Runnable[])
 N	StackTest.java	131	field-set(pc.stack.StackTest.R.v)
 N	StackTest.java	132	field-set(pc.stack.StackTest.R.v)
-Y	StackTest.java	176	field-get(pc.stack.StackTest.R.v)
-N	StackTest.java	186	field-get(System.out)
+N	StackTest.java	174	org.cooperari.CSystem.forkAndJoin(Runnable[])
+N	StackTest.java	175	field-set(pc.stack.StackTest.R.v)
+N	StackTest.java	178	org.cooperari.CSystem.forkAndJoin(Runnable[])
+N	StackTest.java	179	field-set(pc.stack.StackTest.R.v)
+N	StackTest.java	180	field-set(pc.stack.StackTest.R.v)
+Y	StackTest.java	245	field-get(pc.stack.StackTest.R.v)
+N	StackTest.java	255	field-get(System.out)

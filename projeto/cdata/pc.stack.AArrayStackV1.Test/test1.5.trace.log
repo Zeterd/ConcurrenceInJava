@@ -1,10 +1,10 @@
 # THREADS
 TID	NAME	CLASS
 0	test1	org.cooperari.junit.CJUnitRunner$MethodRunner
-1	<1>	pc.stack.StackTest$$Lambda$1/700275712
-2	<2>	pc.stack.StackTest$$Lambda$2/1204659590
-3	<3>	pc.stack.StackTest$$Lambda$3/1356113238
-4	<4>	pc.stack.StackTest$$Lambda$4/1576205994
+1	<1>	pc.stack.StackTest$$Lambda$1/1636246416
+2	<2>	pc.stack.StackTest$$Lambda$2/2066273333
+3	<3>	pc.stack.StackTest$$Lambda$3/69881425
+4	<4>	pc.stack.StackTest$$Lambda$4/366907001
 # EXECUTION TRACE
 #	TID	STEP	EVENT	SOURCE FILE	LINE	YIELD POINT	STAGE
 0	0	0	-	<system>	0	<started>	0
@@ -48,16 +48,16 @@ TID	NAME	CLASS
 38	0	14	-	AArrayStackV1.java	41	field-get(pc.stack.AArrayStackV1.top)	0
 39	0	15	-	AArrayStackV1.java	41	java.util.concurrent.atomic.AtomicInteger.get()	0
 40	0	16	-	StackTest.java	70	field-set(pc.stack.StackTest.R.v)	0
-41	0	17	-	StackTest.java	176	field-get(pc.stack.StackTest.R.v)	0
-42	0	18	-	StackTest.java	176	field-get(pc.stack.StackTest.R.v)	0
-43	0	19	-	StackTest.java	176	field-get(pc.stack.StackTest.R.v)	0
-44	0	20	-	StackTest.java	176	field-get(pc.stack.StackTest.R.v)	0
-45	0	21	-	StackTest.java	186	field-get(System.out)	0
+41	0	17	-	StackTest.java	245	field-get(pc.stack.StackTest.R.v)	0
+42	0	18	-	StackTest.java	245	field-get(pc.stack.StackTest.R.v)	0
+43	0	19	-	StackTest.java	245	field-get(pc.stack.StackTest.R.v)	0
+44	0	20	-	StackTest.java	245	field-get(pc.stack.StackTest.R.v)	0
+45	0	21	-	StackTest.java	255	field-get(System.out)	0
 46	0	22	-	<system>	0	<terminated>	0
 # STACK TRACE FOR FAILURE
 java.lang.AssertionError: Incorrect values: [null, 2, null, null]
 	at org.junit.Assert.fail(Assert.java:88)
-	at pc.stack.StackTest.assertOneOf(StackTest.java:187)
+	at pc.stack.StackTest.assertOneOf(StackTest.java:256)
 	at pc.stack.StackTest.test1(StackTest.java:72)
 	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

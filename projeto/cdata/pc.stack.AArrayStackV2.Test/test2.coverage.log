@@ -1,6 +1,6 @@
 # YIELD POINT COVERAGE
 TOTAL	COVERED	%
-47	28	59.57446808510638
+52	28	53.84615384615385
 # YIELD POINTS
 COVERED	SOURCE FILE	LINE	SIGNATURE
 Y	AArrayStackV2.java	30	field-set(pc.stack.AArrayStackV2.array)
@@ -48,5 +48,10 @@ N	StackTest.java	128	field-set(pc.stack.StackTest.R.v)
 N	StackTest.java	130	org.cooperari.CSystem.forkAndJoin(Runnable[])
 N	StackTest.java	131	field-set(pc.stack.StackTest.R.v)
 N	StackTest.java	132	field-set(pc.stack.StackTest.R.v)
-Y	StackTest.java	176	field-get(pc.stack.StackTest.R.v)
-Y	StackTest.java	186	field-get(System.out)
+N	StackTest.java	174	org.cooperari.CSystem.forkAndJoin(Runnable[])
+N	StackTest.java	175	field-set(pc.stack.StackTest.R.v)
+N	StackTest.java	178	org.cooperari.CSystem.forkAndJoin(Runnable[])
+N	StackTest.java	179	field-set(pc.stack.StackTest.R.v)
+N	StackTest.java	180	field-set(pc.stack.StackTest.R.v)
+Y	StackTest.java	245	field-get(pc.stack.StackTest.R.v)
+Y	StackTest.java	255	field-get(System.out)
