@@ -225,6 +225,19 @@ public abstract class StackTest {
     );
   }
 
+  @Test
+  public void test5() {
+    R a = new R(), b = new R(), c = new R(), d = new R();
+    Stack<Integer> s = createStack();
+
+    CSystem.forkAndJoin(
+        () -> { a.v=s.pop(); s.push(1); b.v=s.pop(); c.v=s.pop()}
+        );
+
+    assertOneOf (
+        array(a,    b,     c,    d ),
+        array(null, 1,     null, null)
+    );
   @SafeVarargs
   static <T> T[] array(T... values) {
     return values;
