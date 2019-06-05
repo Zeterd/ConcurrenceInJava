@@ -49,10 +49,10 @@ public class ALinkedStackASR<E> implements Stack<E> {
       int[] stampHolder = new int[1];
       oldNode = ref.get(stampHolder);
 
-      int oldSize = ref.getStamp();
+      int oldSize = stampHolder[0];
       newNode.next = oldNode;
 
-      if(ref.compareAndSet(oldNode, newNode, oldSize, stampHolder[0])){
+      if(ref.compareAndSet(oldNode, newNode, oldSize, stampHolder[0] + 1)){
         if (backoff != null) {
           backoff.diminish();
         }
