@@ -40,7 +40,6 @@ public class ALinkedStackASR<E> implements Stack<E> {
     if (elem == null) {
       throw new IllegalArgumentException();
     }
-    // TODO
     Node<E> newNode = new Node<>(elem, null);
     Node<E> oldNode;
 
@@ -68,7 +67,6 @@ public class ALinkedStackASR<E> implements Stack<E> {
   @Override
   public E pop() {
     E elem = null;
-    // TODO ...
     Node<E> oldNode;
     Node<E> newNode;
 
