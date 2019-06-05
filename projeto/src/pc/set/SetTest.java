@@ -12,7 +12,7 @@ public class SetTest {
   }
 
   private final CyclicBarrier barrier;
-  private final int n, N, OPS;
+  private final int n, N, OPS; 
   private final Set<Integer> set;
   private final Object PRINT_LOCK = new Object();
   private final AtomicInteger errors = new AtomicInteger();
@@ -48,7 +48,7 @@ public class SetTest {
   }
   private void run(int id) {
     try {
-      barrier.await();
+      barrier.await(); 
       java.util.Set<Integer> mySet = new java.util.TreeSet<>();
       int min = id * N;
       int max = min + N;
@@ -56,15 +56,15 @@ public class SetTest {
       for (int i = 0; i < OPS; i++) {
         int v = min + rng.nextInt(max - min);
         switch(rng.nextInt(10)) {
-          case 0:
+          case 0: 
             set.add(v); mySet.add(v); break;
-          case 1:
-            set.remove(v); mySet.remove(v); break;
+          case 1: 
+            set.remove(v); mySet.remove(v); break;   
           default:
-            set.contains(v); break;
+            set.contains(v); break; 
         }
       }
-      barrier.await();
+      barrier.await(); 
       expectedSetSize.getAndAdd(mySet.size());
       synchronized(PRINT_LOCK) {
         for (int i = min; i < max; i++) {
@@ -77,7 +77,7 @@ public class SetTest {
         }
       }
       barrier.await();
-    }
+    } 
     catch(BrokenBarrierException e) {
 
     }
