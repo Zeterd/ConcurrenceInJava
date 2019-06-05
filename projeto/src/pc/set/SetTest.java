@@ -12,10 +12,11 @@ public class SetTest {
   }
 
   private final CyclicBarrier barrier;
-  private final int n, N, OPS; 
+  private final int n, N, OPS;
   private final Set<Integer> set;
   private final Object PRINT_LOCK = new Object();
   private final AtomicInteger errors = new AtomicInteger();
+  private final AtomicInteger expectedSetSize = new AtomicInteger();
 
   private SetTest(String[] args) throws Exception {
     // Number of threads
@@ -34,6 +35,10 @@ public class SetTest {
     barrier.await(); // sync on start
     barrier.await(); // sync before verification
     barrier.await(); // sync at the end
+    if (expectedSetSize.get() != set.size()) {
+      System.out.printf("Expected set size: %d, reported size is %d!%n", expectedSetSize.get(), set.size());
+      errors.incrementAndGet();
+    }
     if (errors.get() == 0) {
       System.out.println("all seems ok :)");
     } else {
@@ -43,7 +48,7 @@ public class SetTest {
   }
   private void run(int id) {
     try {
-      barrier.await(); 
+      barrier.await();
       java.util.Set<Integer> mySet = new java.util.TreeSet<>();
       int min = id * N;
       int max = min + N;
@@ -51,15 +56,16 @@ public class SetTest {
       for (int i = 0; i < OPS; i++) {
         int v = min + rng.nextInt(max - min);
         switch(rng.nextInt(10)) {
-          case 0: 
+          case 0:
             set.add(v); mySet.add(v); break;
-          case 1: 
-            set.remove(v); mySet.remove(v); break;   
+          case 1:
+            set.remove(v); mySet.remove(v); break;
           default:
-            set.contains(v); break; 
+            set.contains(v); break;
         }
       }
-      barrier.await(); 
+      barrier.await();
+      expectedSetSize.getAndAdd(mySet.size());
       synchronized(PRINT_LOCK) {
         for (int i = min; i < max; i++) {
           if (mySet.contains(i) != set.contains(i)) {
@@ -71,7 +77,7 @@ public class SetTest {
         }
       }
       barrier.await();
-    } 
+    }
     catch(BrokenBarrierException e) {
 
     }
