@@ -231,13 +231,14 @@ public abstract class StackTest {
     Stack<Integer> s = createStack();
 
     CSystem.forkAndJoin(
-        () -> { a.v=s.pop(); s.push(1); b.v=s.pop(); c.v=s.pop()}
+        () -> { a.v=s.pop(); s.push(1); b.v=s.pop(); c.v=s.pop();}
         );
 
     assertOneOf (
         array(a,    b,     c,    d ),
         array(null, 1,     null, null)
     );
+  }
   @SafeVarargs
   static <T> T[] array(T... values) {
     return values;
