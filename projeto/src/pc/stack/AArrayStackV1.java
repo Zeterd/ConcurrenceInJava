@@ -1,6 +1,7 @@
 package pc.stack;
 
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicMarkableReference;
 
 /**
  * Array-based stack - buggy implementation 1.
@@ -10,8 +11,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class AArrayStackV1<E> implements Stack<E> {
 
   private final int INITIAL_CAPACITY = 16;
-  private final E[] array;
-  private final AtomicInteger top;
+  private E[] array;
+  private final AtomicMarkableReference<Integer> top;
 
   /**
    * Constructor.
@@ -19,12 +20,13 @@ public class AArrayStackV1<E> implements Stack<E> {
   @SuppressWarnings("unchecked")
   public AArrayStackV1() {
     array = (E[]) new Object[INITIAL_CAPACITY];
-    top = new AtomicInteger(0);
+    top = new AtomicMarkableReference(0, true);
   }
 
   @Override
   public int size() {
-    return top.get();
+    boolean[] markHolder = new boolean[1];
+    return top.get(markHolder);
   }
 
   @Override
@@ -32,18 +34,55 @@ public class AArrayStackV1<E> implements Stack<E> {
     if (elem == null) {
       throw new IllegalArgumentException();
     }
-    int pos = top.getAndIncrement();
-    array[pos] = elem;
+
+    while(true){
+      boolean[] markHolder = new boolean[1];
+      int pos = top.get(markHolder);
+
+      if (pos == array.length) {
+        array = Arrays.copyOf(array, 2 * array.length);
+      }
+
+      if(top.compareAndSet(pos, pos+1, markHolder[0], false)){
+        //System.out.println("pos: " + pos);
+        //System.out.println("mark: " + markHolder[0]);
+
+        array[pos] = elem;
+        //System.out.println("elem: " + array[pos].toString());
+        break;
+      }
+
+    }
   }
 
   @Override
   public E pop() {
-    if (top.get() == 0) {
-      return null;
+    boolean[] markHolder = new boolean[1];
+
+
+    E elem = null;
+    //int i = 0;
+    while (true) {
+
+      //System.out.println("--->" + i);
+      if (top.get(markHolder) == 0) {
+        return null;
+      }
+
+
+      int pos = top.get(markHolder);
+
+      if (top.compareAndSet(pos, pos - 1, markHolder[0], false)) {
+        //System.out.println("\npos: " + pos);
+        //System.out.println("mark: " + markHolder[0]);
+
+        elem = array[pos - 1];
+        array[pos - 1] = null;
+        break;
+        //System.out.println("elem: " + elem.toString());
+      }
+      //i++;
     }
-    int pos = top.decrementAndGet();
-    E elem = array[pos];
-    array[pos] = null;
     return elem;
   }
 
