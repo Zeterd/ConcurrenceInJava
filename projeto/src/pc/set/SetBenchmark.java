@@ -10,7 +10,7 @@ import pc.util.Benchmark;
 public class SetBenchmark {
 
   private static final int DURATION = 10;
-  private static final int MAX_THREADS = 32;
+  private static final int MAX_THREADS = 1024;
   private static final int N = 256;
 
   /**
@@ -19,16 +19,16 @@ public class SetBenchmark {
    */
   public static void main(String[] args) {
     //double serial = runBenchmark(1, new UStack<Integer>());
-
+    System.out.println("LHashSetLocksArray");
     for (int n = 1; n <= MAX_THREADS; n = n * 2) {
-      runBenchmark(n, new LHashSet<Integer>(false));
-      runBenchmark(n, new LHashSet<Integer>(true));
+      runBenchmark(n, new LHashSetLocksArray<Integer>(false));
+      runBenchmark(n, new LHashSetLocksArray<Integer>(true));
     }
   }
 
   private static void runBenchmark(int threads, Set<Integer> s) {
-    for (int i = 0; i < N; i++) { 
-      s.add(i); 
+    for (int i = 0; i < N; i++) {
+      s.add(i);
     }
     Benchmark b = new Benchmark(threads, DURATION, new SetOperation(s));
     System.out.printf("%d threads using %s ... ", threads, s.getClass().getSimpleName());
@@ -61,5 +61,3 @@ public class SetBenchmark {
     }
   }
 }
-
-
