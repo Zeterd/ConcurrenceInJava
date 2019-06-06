@@ -21,4 +21,4 @@ The project's assignment is documented in assignment.pdf.
 ## Notes
 Most of the instructions are on the assignment pdf on 1.4.
 
-[1]:[https://github.com/Cooperari/cooperari]
+[1]: https://github.com/Cooperari/cooperari
