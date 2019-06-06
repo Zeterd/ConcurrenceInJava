@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Array-based stack - buggy implementation 1.
- * 
+ *
  * @param <E> Type of elements in the stack.
  */
 public class AArrayStackV2<E> implements Stack<E> {
@@ -49,10 +49,10 @@ public class AArrayStackV2<E> implements Stack<E> {
         if (backoff != null) {
           backoff.diminish();
         }
-        break; 
+        break;
       }
       if (backoff != null) {
-        backoff.delay(); 
+        backoff.delay();
       }
     }
   }
@@ -89,4 +89,4 @@ public class AArrayStackV2<E> implements Stack<E> {
       return new AArrayStackV2<>();
     }
   }
-} 
+}
