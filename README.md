@@ -9,9 +9,9 @@ There are also some tests and benchmarks available should you wish to test them,
 
 ## Getting Started
 
-You're going to need jdk-8.
+You're going to need jdk-8 and [cooperari][1].
 
-If you want to run our tests we also advise you to download [cooperari][1] and add it to your PATH (see Notes).
+If you want to run our tests add cooperari to your PATH (see Notes).
 
 First, you have some example code provided by our teacher in the CodeExamples/ directory.
 Second, there's our project inside the project folder.
