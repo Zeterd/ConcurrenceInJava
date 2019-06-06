@@ -13,15 +13,8 @@ public class LHashSet<E> implements Set<E>{
   private static final int NUMBER_OF_BUCKETS = 16; // should not be changed
 
   private LinkedList<E>[] table;
-  private boolean[] loques;
   private int size;
-  private final ReentrantLock rl;
-
-  private void initLoques(){
-      for(int i=0; i<NUMBER_OF_BUCKETS; i++){
-          loques[i] = false;
-      }
-  }
+  private ReentrantLock[] lock;
 
   /**
    * Constructor.
@@ -30,10 +23,11 @@ public class LHashSet<E> implements Set<E>{
   @SuppressWarnings("unchecked")
   public LHashSet(boolean fair) {
     table = (LinkedList<E>[]) new LinkedList[NUMBER_OF_BUCKETS];
-    loques = new boolean[NUMBER_OF_BUCKETS];
-    initLoques();
+    lock = new ReentrantLock[NUMBER_OF_BUCKETS];
+    for(int i=0; i<NUMBER_OF_BUCKETS; i++){
+        lock[i] = new ReentrantLock(fair);
+    }
     size = 0;
-    rl = new ReentrantLock(fair);
   }
 
   @Override
@@ -58,22 +52,19 @@ public class LHashSet<E> implements Set<E>{
       throw new IllegalArgumentException();
     }
 
-    //3.1-rl.lock
     LinkedList<E> list = getEntry(elem);
     boolean r = ! list.contains(elem);
-    int index = list.indexOf(elem);
+    int index = 0;
 
-    if(!loques[index])
-      loques[index] = true;
-      //ainda nao acabei por isso pode dar erros se tentatres :^)
-      rl.lock();
-
-
+    lock[index].lock();
+    
     if (r) {
       list.addFirst(elem);
       size++;
     }
-    //3.1-rl.unlock();
+
+    lock[index].unlock();
+
     return r;
   }
 
@@ -82,13 +73,19 @@ public class LHashSet<E> implements Set<E>{
     if (elem == null) {
       throw new IllegalArgumentException();
     }
-    rl.lock();
-    boolean r = getEntry(elem).remove(elem);
+    LinkedList<E> list = getEntry(elem);
+    int index = list.indexOf(elem);
+
+    if(index < 0 || index >= NUMBER_OF_BUCKETS)
+      return false;
+
+    lock[index].lock();
+    boolean r = list.remove(elem);
 
     if (r) {
       size--;
     }
-    rl.unlock();
+    lock[index].unlock();
     return r;
   }
 
@@ -97,10 +94,16 @@ public class LHashSet<E> implements Set<E>{
     if (elem == null) {
       throw new IllegalArgumentException();
     }
-    rl.lock();
     LinkedList<E> list = getEntry(elem);
+    int index = list.indexOf(elem);
+
+    if(index < 0 || index >= NUMBER_OF_BUCKETS)
+      return false;
+
+    //System.out.println(index);
+    lock[index].lock();
     boolean r = list.contains(elem);
-    rl.unlock();
+    lock[index].unlock();
 
     return r;
 
