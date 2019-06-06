@@ -19,7 +19,7 @@ public class SetBenchmark {
    */
   public static void main(String[] args) {
     //double serial = runBenchmark(1, new UStack<Integer>());
-    System.out.println("LHashSetLocksArray");
+    
     for (int n = 1; n <= MAX_THREADS; n = n * 2) {
       runBenchmark(n, new LHashSetLocksArray<Integer>(false));
       runBenchmark(n, new LHashSetLocksArray<Integer>(true));

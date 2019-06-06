@@ -53,7 +53,6 @@ public class LHashSetLocksArray<E> implements Set<E>{
       throw new IllegalArgumentException();
     }
     int index = Math.abs(elem.hashCode()%table.length);
-    //System.out.println("elemHas: " + elem.hashCode() + " | table.length: " + table.length + " | index: "+index);
     boolean r = false;
 
     lock[index].lock();

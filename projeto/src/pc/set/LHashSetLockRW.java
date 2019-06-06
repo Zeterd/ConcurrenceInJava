@@ -56,7 +56,7 @@ public class LHashSetLockRW<E> implements Set<E>{
     int pos = Math.abs(elem.hashCode() % table.length);
     LinkedList<E> list;
     boolean r = false;
-    locks[pos].writeLock().lock();  // block until condition holds
+    locks[pos].writeLock().lock(); 
     try {
       list = getEntry(elem);
       r = ! list.contains(elem);
@@ -80,7 +80,7 @@ public class LHashSetLockRW<E> implements Set<E>{
 
     int pos = Math.abs(elem.hashCode() % table.length);
     boolean r = false;
-    locks[pos].writeLock().lock();  // block until condition holds
+    locks[pos].writeLock().lock();
     try {
       r = getEntry(elem).remove(elem);
 
@@ -102,7 +102,7 @@ public class LHashSetLockRW<E> implements Set<E>{
 
     boolean r = false;
     int pos = Math.abs(elem.hashCode() % table.length);
-    locks[pos].readLock().lock();  // block until condition holds
+    locks[pos].readLock().lock();
     try {
       r = getEntry(elem).contains(elem);
     } finally {

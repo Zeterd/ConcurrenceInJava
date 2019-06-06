@@ -23,13 +23,13 @@ public class StackBenchmark {
     for (int n = 1; n <= MAX_THREADS; n = n * 2) {
       runBenchmark(n, new LLinkedStack<Integer>());
       runBenchmark(n, new LArrayStack<Integer>());
-      /*runBenchmark(n, new ALinkedStack<Integer>(false));
+      runBenchmark(n, new ALinkedStack<Integer>(false));
       runBenchmark(n, new ALinkedStack<Integer>(true));
       runBenchmark(n, new ALinkedStackASR<Integer>(false));
       runBenchmark(n, new ALinkedStackASR<Integer>(true));
       runBenchmark(n, new AArrayStack<Integer>(false));
       runBenchmark(n, new AArrayStack<Integer>(true));
-      */System.out.println();
+      System.out.println();
     }
   }
 
