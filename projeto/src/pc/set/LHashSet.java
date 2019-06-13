@@ -46,14 +46,18 @@ public class LHashSet<E> implements Set<E>{
     }
 
     rl.lock();
-    LinkedList<E> list = getEntry(elem);
-    boolean r = ! list.contains(elem);
+    try{
+      LinkedList<E> list = getEntry(elem);
+      boolean r = ! list.contains(elem);
 
-    if (r) {
-      list.addFirst(elem);
-      size++;
+      if (r) {
+        list.addFirst(elem);
+        size++;
+      }
     }
-    rl.unlock();
+    finally{
+      rl.unlock();
+    }
 
     return r;
   }
@@ -65,12 +69,16 @@ public class LHashSet<E> implements Set<E>{
     }
 
     rl.lock();
-    boolean r = getEntry(elem).remove(elem);
+    try{
+      boolean r = getEntry(elem).remove(elem);
 
-    if (r) {
-      size--;
+      if (r) {
+        size--;
+      }
     }
-    rl.unlock();
+    finally{
+      rl.unlock();
+    }
 
     return r;
   }
@@ -82,8 +90,13 @@ public class LHashSet<E> implements Set<E>{
     }
 
     rl.lock();
-    boolean r = getEntry(elem).contains(elem);
-    rl.unlock();
+    try{
+      boolean r = getEntry(elem).contains(elem);
+    }
+    finally{
+      rl.unlock();
+    }
+
     return r;
   }
 }
